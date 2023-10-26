@@ -5,7 +5,7 @@
         </div>
         <div
             v-else
-            :style="`background-image: url('/weather-main/${weatherInfo?.weather[0].description}.png')`"
+            :style="`background-image: url('./weather-main/${weatherInfo?.weather[0].description}.png')`"
             class="pic-main"
         ></div>
         <div class="weather">
